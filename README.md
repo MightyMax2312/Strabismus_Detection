@@ -31,7 +31,8 @@ source venv/bin/activate
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-
+```
+```bash
 # Install required packages
 pip install -r requirements.txt
 
