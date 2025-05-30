@@ -32,6 +32,7 @@ source venv/bin/activate
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
+And finally install the required packages from requirements.txt
 ```bash
 # Install required packages
 pip install -r requirements.txt
