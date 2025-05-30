@@ -1,11 +1,6 @@
-# Strabismus_Detection
-A deep-learning model to detect strabismus (eye misalignment) from images using a trained neural network. It includes a dataset, preprocessing pipeline, training code and an h5 model with ready deployment on a Jetson Nano/Windows with potential input from an ESP32-CAM.
-
 # Strabismus Detection using Deep Learning
 
-This project contains a deep learning pipeline to detect **strabismus** (eye misalignment) from images using a trained neural network. It includes a dataset, preprocessing pipeline, training code and an h5 model with ready deployment on a Jetson Nano/Windows with potential input from an ESP32-CAM.
-
-
+This project contains a deep learning pipeline to detect **strabismus** (eye misalignment) from images using a trained neural network. It includes a dataset, preprocessing pipeline, training code and an h5 model with ready deployment on a Jetson Nano/Windows with potential input from an ESP32-CAM. The accuracy of the model is 77%, and has the following features:-
 - CNN-based model to detect strabismus from eye images
 - Dataset and preprocessing pipeline included
 - Training scripts and a pretrained `.h5` model
