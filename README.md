@@ -13,7 +13,7 @@ This project contains a deep learning pipeline to detect **strabismus** (eye mis
 
 ---
 
-## 📦 Installation guide
+## Installation guide
 
 ```bash
 # Clone the repository
@@ -21,8 +21,18 @@ git clone https://github.com/MightyMax2312/Strabismus_Detection.git
 cd Strabismus_Detection
 
 #Use a Python virtual environment
+```
+**Linux**
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+**Windows**
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 
 # Install required packages
 pip install -r requirements.txt
+
+```
